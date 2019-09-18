@@ -1,7 +1,7 @@
 <?php
 	/**
 	* Plugin Name: Custom address bar
-	* Plugin URI: http://127.0.0.1
+	* Plugin URI: https://github.com/RazorMeister/CustomAdressBar-Wordpress-Plugin
 	* Description: Wtyczka zmieniająca kolor paska adresu na urządzeniach mobilnych (chrome & safari)
 	* Version: 1.0
 	
