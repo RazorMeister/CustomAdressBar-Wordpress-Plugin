@@ -29,4 +29,4 @@ Custom address bar is a wordpress plugin which add some meta tags to head sectio
 Project is: _finshed_.
 
 ## Contact
-Created by [@RazorMeister](https://razormeister.pl/) - feel free to contact me!
+Created by [@RazorMeister](http://razormeister.pl/) - feel free to contact me!
