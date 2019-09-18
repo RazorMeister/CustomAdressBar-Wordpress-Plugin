@@ -20,13 +20,13 @@ Custom address bar is a wordpress plugin which add some meta tags to head sectio
 4. Change color in Settings -> Custom Address Bar page.
 #### And that is all!
 
-##Screenshots
+## Screenshots
 ![](https://imgur.com/T2cG16E.png)
 
 ![](https://imgur.com/jzTFEGw.png)
 
-##Status
+## Status
 Project is: _finshed_.
 
-##Contact
+## Contact
 Created by [@RazorMeister](https://www.razormeister.pl/) - feel free to contact me!
