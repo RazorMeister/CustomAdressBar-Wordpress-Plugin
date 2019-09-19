@@ -2,6 +2,7 @@
  WP plugin to change address bar color in mobile devices in chrome and safari browser
 
 ------------
+# Language: PL
 
 ## Table of contents
 * [General info](#general-info)
