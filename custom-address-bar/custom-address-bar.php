@@ -16,6 +16,9 @@
 
     class CustomAddressBar
     {
+		private $NEW_LINE = "\n";
+		private $TAB = "        ";
+		
         /**
          * CustomAddressBar constructor.
          * Add wordpress actions.
@@ -75,8 +78,8 @@
         public function addMetaTags() {
             $color = get_option('customAddressBar_color');
             $this->headerComment();
-            echo '<meta name="theme-color" content="'.$color.'">';
-            echo '<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">';
+            echo $this->TAB.'<meta name="theme-color" content="'.$color.'">'.$this->NEW_LINE;
+            echo $this->TAB.'<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">'.$this->NEW_LINE;
             $this->footerComment();
         }
 
@@ -84,14 +87,14 @@
          * Start comment in head section.
          */
         private function headerComment() {
-            echo '<!-- CustomAdressBar START -->';
+            echo $this->TAB.'<!-- CustomAdressBar START -->'.$this->NEW_LINE;
         }
 
         /**
          * End comment in head section.
          */
         private function footerComment() {
-            echo '<!-- CustomAdressBar END -->';
+            echo $this->TAB.'<!-- CustomAdressBar END -->'.$this->NEW_LINE;
         }
     }
 
